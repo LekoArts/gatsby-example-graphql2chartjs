@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-exmaple-graphql2chartjs",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "An example for graphql2chartjs",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -9,22 +9,18 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "dependencies": {
+    "chart.js": "^2.8.0",
     "gatsby": "^2.2.5",
+    "gatsby-source-graphql": "^2.0.15",
+    "graphql2chartjs": "^0.2.2",
     "react": "^16.8.4",
+    "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
